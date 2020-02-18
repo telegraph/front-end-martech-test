@@ -12,18 +12,18 @@
 
 ## :wrench: Task 
 
-We would like you to build a responsive callapsible footer as per the included designs. You should meet the [ACs](#scroll-acceptance-criteria).
+We would like you to build a responsive collapsible footer as per the included designs. You should meet the [ACs](#scroll-acceptance-criteria).
 
 Some basic front-end tooling ([gulp](https://gulpjs.com/) for JavaScript compilation, [babel](https://babeljs.io/) for JS transpiling and [SASS](https://sass-lang.com/) as CSS preprocessor) has been provided.
 
 Your code should work in modern browsers such as Chrome, Firefox and Edge. Do not worry about supporting IE11 or below and ES6 is always welcome.
 
-You should spend around 90min on this task. If you do not complete the task in time please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
+You should spend around 90min on this task. If you do not complete the task in time, please submit with a list of what you would have done with more time. Feel free to be specific and write `// TODO`s throughout your code.
 
 ### :mega: Requirements
 
 * Match the [designs](#art-designs) as closely as possible, filling in any gaps as you deem fit
-* Application should be fully responsive
+* The footer should be fully responsive
 * Pass the [ACs](#scroll-acceptance-criteria)
 * Keep your JavaScript vanilla please :icecream:
 
@@ -32,19 +32,17 @@ You should spend around 90min on this task. If you do not complete the task in t
 * An understanding of web fundamentals
 * A consistent and scalable approach to the test
 * An understanding of accessibility
-* Reasoning about SEO
 * Ability to translate designs into code
 
 ### :art: Designs
 
-* There are exported design files in the `designs` directory in the root of the project.
+* There are images within the `designs` directory which is in the root of the project.
 
 ## :floppy_disk: Set up
 
-Firstly install Gulp:
+Firstly install the Gulp CLI:
 ```sh
 npm install gulp-cli -g
-npm install gulp -D
 ```
 
 Then install all of the packages:
@@ -68,9 +66,9 @@ Use whatever font you think it might be a closer match with the ones displayed i
 ## :scroll: Acceptance criteria
 
 ```
-Scenario: Show expanded footer
-	Given that I access the homepage
-	Then the home page should display a footer
+Scenario: Show the expanded footer
+	Given that I access the page
+	Then the page should display a footer
 	And the footer should have the arrow facing down
 	And the footer should show the main title
 	And the footer should show a box with title, a subscribe button and bullet points
