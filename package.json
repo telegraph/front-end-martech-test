@@ -21,9 +21,9 @@
 	"license": "ISC",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/telegraph/martech-frontend-test.git"
+		"url": "git+https://github.com/telegraph/front-end-martech-test.git"
 	},
-	"homepage": "https://github.com/telegraph/martech-frontend-test#readme",
+	"homepage": "https://github.com/telegraph/front-end-martech-test#readme",
 	"devDependencies": {
 		"@babel/core": "^7.4.5",
 		"@babel/plugin-external-helpers": "^7.2.0",
