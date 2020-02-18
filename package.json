@@ -1,0 +1,44 @@
+{
+	"name": "telegraph-martech-front-end-test",
+	"version": "1.0.0",
+	"description": "Telegraph Martech Front-End Test",
+	"main": "server.js",
+	"scripts": {
+		"server": "node server.js",
+		"watch": "gulp watch",
+		"dev": "npm run --silent server & npm run --silent watch",
+		"build": "gulp build --silent"
+	},
+	"browserslist": [
+		"last 2 versions",
+		"Explorer >= 11",
+		"Android >= 4.1",
+		"Safari >= 7",
+		"iOS >= 7",
+		"Firefox >= 20"
+	],
+	"author": "andrea.lai@telegraph.co.uk",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/telegraph/martech-frontend-test.git"
+	},
+	"homepage": "https://github.com/telegraph/martech-frontend-test#readme",
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/plugin-external-helpers": "^7.2.0",
+		"@babel/plugin-syntax-dynamic-import": "^7.2.0",
+		"@babel/polyfill": "^7.4.4",
+		"@babel/preset-env": "^7.4.5",
+		"autoprefixer": "^9.6.0",
+		"babel-loader": "^8.0.6",
+		"gulp": "^4.0.2",
+		"gulp-postcss": "^8.0.0",
+		"gulp-sass": "^4.0.2",
+		"npm-config": "^0.2.0",
+		"webpack-stream": "^5.2.1"
+	},
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}

@@ -1,0 +1,11 @@
+@mixin break-by-range($min, $max) {
+	@media only screen and (min-width: $min) and (max-width: $max - 1) {
+		@content;
+	}
+}
+
+@mixin break-by-width($w) {
+	@media only screen and (min-width: $w) {
+		@content;
+	}
+}
