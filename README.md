@@ -40,9 +40,10 @@ You should spend around 90min on this task. If you do not complete the task in t
 
 ## :floppy_disk: Set up
 
-Firstly install the Gulp CLI:
+Firstly install the Gulp:
 ```sh
 npm install gulp-cli -g
+npm install gulp -D
 ```
 
 Then install all of the packages:
